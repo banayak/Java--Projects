@@ -1,0 +1,17 @@
+/bin/
+.idea/*
+/build*
+.metadata
+.settings/*
+bin/**
+*.class
+*.swp
+*~.nib
+Servers/*
+### VS Code ###
+.vscode/
+/target/*
+.smarttomcat/*
+
+### Mac OS ###
+.DS_Store
