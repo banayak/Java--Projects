@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>myServlet</servlet-name>
+    <servlet-class>com.servelet.example.MyservletOldFashion</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>myServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>SankuGenericServlet</servlet-name>
+    <servlet-class>com.servelet.example.GenericServletOldStyle</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SankuGenericServlet</servlet-name>
+    <url-pattern>/hello2</url-pattern>
+  </servlet-mapping>
 </web-app>

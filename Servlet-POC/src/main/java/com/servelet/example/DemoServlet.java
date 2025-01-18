@@ -1,3 +1,5 @@
+package com.servelet.example;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,6 +13,11 @@ public class DemoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<h3>Hello World Sankuru!</h3>");
+        out.println("<h3>Hello World Sankuru First Sevlet !</h3>");
+        String employee = (String) request.getAttribute("employee");
+        if(employee !=null) {
+            out.println("<h3>Welcome Employee " + employee + "</h3>");
+        }
+
     }
 }
