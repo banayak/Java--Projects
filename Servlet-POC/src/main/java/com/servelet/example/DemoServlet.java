@@ -15,7 +15,7 @@ public class DemoServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<h3>Hello World Sankuru First Sevlet !</h3>");
         String employee = (String) request.getAttribute("employee");
-        if(employee !=null) {
+        if (employee != null) {
             out.println("<h3>Welcome Employee " + employee + "</h3>");
         }
 

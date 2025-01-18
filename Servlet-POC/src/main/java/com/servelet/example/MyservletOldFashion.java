@@ -14,7 +14,7 @@ public class MyservletOldFashion extends HttpServlet {
         response.setContentType("text/html");
 
         PrintWriter out = response.getWriter();
-        System.out.printf("Am Here");
+        System.out.println("Am Here");
         out.println("<html>");
         out.println("<head><title>My first Servlet</title></head>");
         out.println("<body>");
@@ -24,9 +24,9 @@ public class MyservletOldFashion extends HttpServlet {
 
 
         String employeeId = request.getQueryString();
-        request.setAttribute("employee",employeeId);
+        request.setAttribute("employee", employeeId);
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("DemoServlet1");
-        requestDispatcher.forward(request,response);
+        requestDispatcher.forward(request, response);
         out.close();
     }
 
@@ -44,9 +44,9 @@ public class MyservletOldFashion extends HttpServlet {
 
 
         String employeeId = request.getQueryString();
-        request.setAttribute("employee",employeeId);
+        request.setAttribute("employee", employeeId);
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("DemoServlet1");
-        requestDispatcher.forward(request,response);
+        requestDispatcher.forward(request, response);
 
         //response.sendRedirect("DemoServlet1");
         out.close();

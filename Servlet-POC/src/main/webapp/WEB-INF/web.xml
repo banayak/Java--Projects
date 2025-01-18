@@ -1,27 +1,27 @@
 <!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-    <servlet-name>myServlet</servlet-name>
-    <servlet-class>com.servelet.example.MyservletOldFashion</servlet-class>
-  </servlet>
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>myServlet</servlet-name>
+        <servlet-class>com.servelet.example.MyservletOldFashion</servlet-class>
+    </servlet>
 
-  <servlet-mapping>
-    <servlet-name>myServlet</servlet-name>
-    <url-pattern>/hello</url-pattern>
-  </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>myServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
 
-  <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-    <servlet-name>SankuGenericServlet</servlet-name>
-    <servlet-class>com.servelet.example.GenericServletOldStyle</servlet-class>
-  </servlet>
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>SankuGenericServlet</servlet-name>
+        <servlet-class>com.servelet.example.GenericServletOldStyle</servlet-class>
+    </servlet>
 
-  <servlet-mapping>
-    <servlet-name>SankuGenericServlet</servlet-name>
-    <url-pattern>/hello2</url-pattern>
-  </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SankuGenericServlet</servlet-name>
+        <url-pattern>/hello2</url-pattern>
+    </servlet-mapping>
 </web-app>
