@@ -1,4 +1,4 @@
-package com.servelet.example;
+package com.servlet.example;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
